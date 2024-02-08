@@ -1,4 +1,4 @@
-package Ejercicio1.idea;
+package Ejercicio1;
 
 public class Publicacion {
     private String texto;
