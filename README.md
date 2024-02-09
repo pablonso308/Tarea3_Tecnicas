@@ -1,5 +1,5 @@
 # Tarea3_Tecnicas
-link a mi repositori: 
+link a mi repositori: https://github.com/pablonso308/Tarea3_Tecnicas.git
 
 ENUNCIADO 
 1. Análisis de Datos de Redes Sociales
