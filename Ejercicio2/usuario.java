@@ -5,7 +5,7 @@ public class usuario {
 
     private String id;
 
-    public usuario(String nombre, String id) {
+    public usuario() {
         this.nombre = nombre;
         this.id = id;
     }
