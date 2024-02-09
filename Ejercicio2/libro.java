@@ -11,4 +11,19 @@ public class libro {
         this.id = id;
     }
 
+    public String getTitulo(){
+
+            return this.Titulo;
+        }
+
+        public String getAutor(){
+
+            return this.Autor;
+        }
+
+        public String getId(){
+
+            return this.id;
+        }
+
 }

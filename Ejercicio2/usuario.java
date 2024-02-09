@@ -10,4 +10,11 @@ public class usuario {
         this.id = id;
     }
 
+    public String getNombre() {
+        return this.nombre;
+    }
+
+    public String getId() {
+        return this.id;
+    }
 }

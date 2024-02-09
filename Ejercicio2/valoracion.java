@@ -1,16 +1,28 @@
 package Ejercicio2;
 
 public class valoracion {
-    private Usuario usuario;
+    private usuario usuario;
 
-    private Libro libro;
+    private libro libro;
 
     private int puntuacion;
 
-public valoracion(Usuario usuario, Libro libro ){
+public valoracion(usuario usuario, libro libro ){
     this.usuario = usuario;
     this.libro = libro;
     this.puntuacion = 0;
 }
 
+
+public usuario getUsuario() {
+    return this.usuario;
+}
+
+public libro getLibro() {
+    return this.libro;
+}
+
+public int getPuntuacion() {
+    return this.puntuacion;
+}
 }
