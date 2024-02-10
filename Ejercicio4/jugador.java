@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class jugador {
     private Scanner scanner;
-    Scanner sc = new Scanner(System.in);
+
+    public jugador() {
+        scanner = new Scanner(System.in);
+    }
 
     public boolean resolverdesafio(desafio desafio) { System.out.println("Resolviendo desafío: " + desafio.getdescripcion());
         System.out.print("¿El desafío se resuelve correctamente? (true/false): ");
